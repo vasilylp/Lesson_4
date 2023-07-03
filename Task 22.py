@@ -5,6 +5,7 @@
 m - кол-во элементов второго множества. Затем пользователь вводит сами элементы множеств"""
 
 n, m = [int(z) for z in input("Введите размеры списков - две цифры через запятую : ").split(',')]
+print(n,m)
 n_list = list(int(num) for num in input(f"Введите {n} элементов 1 списка через пробел : ").strip().split())[:n]
 m_list = list(int(num) for num in input(f"Введите {m} элементов 2 списка через пробел : ").strip().split())[:m]
 print("n_list: ", n_list)
